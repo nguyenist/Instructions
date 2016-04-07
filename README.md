@@ -65,6 +65,20 @@ and [here](https://gist.github.com/haf/2843680) for more information.)
 Spend some time setting up and familiarizing yourself with vagrant. To run Vagrant, type the following command in the directory where the `Vagrantfile` is located:
 
 ```
+vagrant init hashicorp/precise64
+```
+
+This should place a vagrant file in this directory. You should receive 
+```
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+```
+
+Then
+
+```
 vagrant up
 ```
 
